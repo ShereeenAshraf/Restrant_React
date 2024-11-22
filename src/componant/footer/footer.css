@@ -1,0 +1,21 @@
+.footer .row{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer{
+    background-color: #A82C48;
+    color: white;
+    margin-top: 20px;
+    padding: 25px 0px;
+
+}
+
+a {
+    text-decoration: none !important;
+    color: #fff !important;
+    display: block;
+}
+a:hover{
+    color: #6B0000 !important ;
+}

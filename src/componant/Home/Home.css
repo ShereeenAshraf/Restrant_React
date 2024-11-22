@@ -1,0 +1,197 @@
+.numbers{
+    background-color: #A82C48;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.numbers .row {
+    margin: 10px 0px;
+}
+.numbers h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin: 10px 0px;
+    color: #fff;
+    font-family: "Sriracha", cursive;
+}
+
+.numbers h6{
+    color: #fff;
+    font-family: "Sriracha", cursive;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/* start section 2 styling  */
+
+.pride,
+.ingredients {
+    background-color: transparent;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.pride img ,
+.ingredients img ,
+.bloges img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.pride h2 ,
+.ingredients h2 ,
+.paralex h2 ,
+.bloges h2{
+    font-size: 36px;
+    font-weight: 400;
+    width: 80%;
+    margin: 10px 0px;
+    color: #7f142d;
+    font-weight: 400;
+    font-family: "Sriracha", cursive;
+    line-height: 50px;
+}
+
+.pride p ,
+.ingredients p ,
+.paralex p,
+.bloges p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #333;
+    font-family: "Sriracha", cursive;
+    margin-top: 20px;
+}
+.pride button a ,
+.ingredients button a ,
+.bloges button a {
+    text-decoration: none !important;
+    color: #fff;
+    display: block;
+}
+.pride button , 
+.ingredients button,
+.bloges button {
+    width: 150px;
+    height: 50px;
+    background-color: #a21536;
+    border: 1px solid #8f0b2a;
+    text-align: center;
+    box-sizing: border-box;
+    color: #fff;
+    margin: 20px 10px 20px 0px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: .2s ease;
+}
+.pride button:hover a ,
+.ingredients button:hover a,
+.bloges button:hover a{
+    
+    color: #8f0b2a;
+}
+.pride button:hover ,.ingredients button:hover ,
+.bloges button:hover{
+    background-color: #fff;
+    
+}
+
+
+
+
+/* section 3  */
+
+/* .ingredients{
+    margin-top: 50px;
+    max-width: 100%;
+    height: auto;
+    text-align: left;
+    overflow: hidden;
+} */
+
+.ingredients ul{
+    padding: 0px;
+}
+.ingredients ul li{
+    list-style: square;
+    font-family: "Sriracha", cursive;
+    color: #333;
+    margin-top: 10px;
+}
+
+
+/* section 4  */
+
+.paralex{
+    background: url('../../assets/bg-2.jpg') center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.paralex .row{
+    margin: 50px 0px;
+}
+
+
+.paralex h2{
+    text-align: center !important;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.paralex p {
+    color: #444;
+    margin: 20px 0px;
+    line-height: 32px;
+}
+
+.paralex a{
+    color: #a21536;
+    font-size: 20px;
+    margin: 20px 0px;
+    font-family: "Sriracha", cursive;
+    text-decoration: none !important;
+}
+
+/* section 5 blogs */
+.bloges{
+    padding: 25px 0px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 50px;
+
+}
+
+.bloges .row:first-child{
+    text-align: center;
+    margin: 25px 0px;
+}
+.bloges h2{
+    width: 100%;
+    font-size: 45px;
+}
+
+.bloges h5{
+    color: #b5173c;
+    font-size: 21px;
+}
+.bloges span{
+    font-size: 17px;
+}
+
+.bloges h6{
+    color: #b5173c;
+    font-size: 25px;
+}
+
